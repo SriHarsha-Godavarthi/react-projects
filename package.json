@@ -1,0 +1,32 @@
+{
+  "name": "harsha-webapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "web application for weather reports",
+  "repository": "https://github.com/SriHarsha-Godavarthi/react-projects",
+  "author": "SriHarsha Godavarthi <sriharsha.godavarthi232@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "weather application",
+    "weather",
+    "temperature"
+  ],
+  "scripts": {
+    "start": "parcel index.html -p 3030 --host localhost --open",
+    "build": "parcel build index.html --dist-dir public",
+    "watch": "parcel watch",
+    "prod": "parcel index,html"
+  },
+  "bugs": {
+    "url": "https://github.com/SriHarsha-Godavarthi/react-projects/issues"
+  },
+  "homepage": "https://github.com/SriHarsha-Godavarthi/react-projects/blob/main/Readme.md",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
