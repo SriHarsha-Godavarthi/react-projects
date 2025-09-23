@@ -7,7 +7,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffbd59;
+    background-color: #1F2937;
+    opacity: 0.8;
     height: 4.2rem;
 }
 .nav_list_container{
@@ -27,6 +28,7 @@
 .header_container{
     position: fixed;
     z-index: 1;
+    top: 0rem;
     width: 100vw;
 }
 @media (min-width: 250px) and (max-width: 599) { 
