@@ -76,7 +76,8 @@
 .add_cart_container{
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-items: flex-end;
+
 }
 .add_cart{
 background-color: aqua;
@@ -99,7 +100,7 @@ width: fit-content;
 .input_ele{
     border: 0.3rem solid black;
     border-radius: 1rem;
-    width: 17vw;
+    width: 16rem;
     text-align: center;
     font-size: medium;
     justify-content: center;

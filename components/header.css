@@ -15,16 +15,18 @@
         padding-right: 1%;
 }
 
+
+.nav_items>.nav_item{
+        cursor: pointer;
+        color: whitesmoke;
+} 
 .nav_items>.active{
         font-size: medium;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
         text-decoration: underline;
         border-radius: 10px;
 }
-.nav_items>.nav_item{
-        cursor: pointer;
-} 
 .header_container{
     position: fixed;
     z-index: 1;
@@ -47,17 +49,19 @@
     }
     .menu_popup{
         position: fixed;
-        top: 15%;
+        top: 37vh;
         z-index: 1;
-        width: 100vw;
+        backdrop-filter: blur(6px);
+        width: 50vw;
+        left: 25vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #ffbd59;
+        background-color: black;
     }
     
     .menu-btn{
-     background-color: #ffbd59;    
+     background-color: black;    
      color: whitesmoke;
      border-radius: 10%;
      border: 2px solid whitesmoke;

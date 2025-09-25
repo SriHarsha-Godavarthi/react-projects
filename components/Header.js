@@ -9,7 +9,7 @@ export default function Header(props){
            {props.children}
            <div className="nav_list_container">
               <ul className="nav_items">
-                {navItems.map((navItem=><li className={`nav_item`+(active==navItem.value?' active':'')} onClick={()=>setActive(navItem.value)} key={navItem.key}>{navItem.key}</li>))}
+                {navItems.map((navItem=><li className={`nav_item`+(active==navItem.value?' active':'')} onClick={()=>setActive(navItem.value)} key={navItem.key}>{navItem.key}</li>))} 
               </ul>
               <button className="menu-btn"
                     aria-label="Open menu"
